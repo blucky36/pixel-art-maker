@@ -1,9 +1,4 @@
 document.addEventListener("DOMContentLoaded",function(){
-
-//   //need to change border color of each color when clicked
-
-    //figure out how to connect the two functions with a "brush"
-
   const createAllPixels = () =>{
      let workspace = document.getElementById("pixels");
      console.log(workspace)
