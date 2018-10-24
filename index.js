@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded",function(){
       colors.appendChild(colorSwatch);
     }
   }
-
+  let selectedColor;
   pixels.addEventListener("click",function(event){
     event.target.style.backgroundColor = selectedColor;
     event.target.style.borderColor = selectedColor;
