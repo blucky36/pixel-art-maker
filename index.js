@@ -31,6 +31,16 @@ document.addEventListener("DOMContentLoaded",function(){
     document.body.style.backgroundColor = selectedColor;
   });
 
+  let btn = document.querySelector("#reset");
+
+  let pix = document.getElementsByClassName("pixel");
+  const rest = () =>{
+    for(let k = 0; k < pix.length; k++){
+    pix[k].style.backgroundColor = "white";
+    pix[k].style.borderColor = "black";
+    }
+  }
+  btn.addEventListener("click",rest);
   // pixels.addEventListener("",function(event))
 
   createColorPannel();
