@@ -4,6 +4,8 @@ In this exercise, you'll create your own pixel art maker which will allow a user
 
 ![Example of Pixel Art Maker](pixel-art-maker-alt.png)
 
+ smoggy-walk.surge.sh Blake Bollman's pixel art project
+
 More specifically, your pixel art maker should allow a user to do the following.
 
 1. Start with a blank canvas of pixels.
@@ -41,7 +43,7 @@ Research [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 ### Bonus 4
 
-Create a fill tool that will [flood fill](https://en.wikipedia.org/wiki/Flood_fill) boundaries with a chosen paint color. 
+Create a fill tool that will [flood fill](https://en.wikipedia.org/wiki/Flood_fill) boundaries with a chosen paint color.
 
 
 ### Deployment
