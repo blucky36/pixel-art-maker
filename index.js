@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded",function(){
         workspace.appendChild(singlePixel);
     }
   }
-
   const createColorPannel = () =>{
     let colorArray = ["red","orange","yellow","green","blue","indigo","violet","white","black","grey","skyblue","darkgreen","purple","aqua","aquamarine","darkslategrey","dodgerblue","greenyellow","lime","tomato","slateblue","tan","whitesmoke","mediumorchid","lightpink","hotpink"];
     let colors = document.getElementById("colors");
@@ -41,8 +40,6 @@ document.addEventListener("DOMContentLoaded",function(){
     }
   }
   btn.addEventListener("click",rest);
-  // pixels.addEventListener("",function(event))
-
   createColorPannel();
   createAllPixels();
 });
