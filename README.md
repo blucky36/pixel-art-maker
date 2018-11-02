@@ -4,7 +4,7 @@ In this exercise, you'll create your own pixel art maker which will allow a user
 
 ![Example of Pixel Art Maker](pixel-art-maker-alt.png)
 
- smoggy-walk.surge.sh Blake Bollman's pixel art project
+ scarce-note.surge.sh Blake Bollman's pixel art project
 
 More specifically, your pixel art maker should allow a user to do the following.
 
