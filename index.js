@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",function(){
+  let workspace = document.getElementById("pixels");
   const createAllPixels = () =>{
-     let workspace = document.getElementById("pixels");
      console.log(workspace)
     for(let j = 0; j < 4800; j++){
         let singlePixel = document.createElement("div")
@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded",function(){
     }
   }
   let selectedColor;
-  pixels.addEventListener("click",function(event){
+  workspace.addEventListener("click",function(event){
+    if(event.target === workspace){return}
     event.target.style.backgroundColor = selectedColor;
     event.target.style.borderColor = selectedColor;
   });
